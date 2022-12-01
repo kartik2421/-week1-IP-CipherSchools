@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Images & Responsiveness</title>
+  </head>
+  <body>
+    <!-- <img
+      src="https://youimg1.tripcdn.com/target/100k1f000001gui9o94D8_C_880_350_R5.jpg?proc=source%2ftrip"
+      alt="House"
+      width="100%"
+      height="100%"
+      srcset="
+        "/C:\Users\jnite\Downloads\artificial-intelligence-AI.jpg  480w,
+        "/C:\Users\jnite\Downloads\artificial-intelligence-AI.jpg  800w,
+        "/C:\Users\jnitepx\Downloads\artificial-intelligence-AI.jpg 1200w"
+      sizes="(max-width: 480px) 240px,
+             (max-width: 960px) 480px,
+             (max-width: 1440px) 960px"
+    />
+   -->
+  <picture>
+      <source media="(max-width: 600px)" srcset="https://youimg1.tripcdn.com/target/100k1f000001gui9o94D8_C_880_350_R5.jpg?proc=source%2ftrip">
+      <source media="(max-width: 900px)" srcset="https://www.tourmyindia.com/blog//wp-content/uploads/2019/02/Rishikesh-Yoga-City-India.jpg">
+      <img src="https://www.kids-world-travel-guide.com/images/xmauritius_mornebrabant-2.jpg.pagespeed.ic.eAoB57Gsox.jpg" alt="">
+  </picture>
+
+  <!-- Image Mapping -->
+
+<img src="https://storage.googleapis.com/nextivawebsites-wordpressfiles-voip/var/www/virtual/nextiva.com/voip/How-to-Get-More-Productivity-From-a-Larger-Team-scaled.jpg" alt="workspace" usemap="workspace">
+
+<map name="workspace">
+    <area shape="rect" coords="34,44,270,150" alt="computer" href="computer.html">
+    <area shape="rect" coords="290,172,333,250" href="phone.html" alt="Phone">
+    <area shape="circle" coords="337,300,44" href="cup.html" alt="cup">
+
+</map>
+
+
+</body>
+</html>
